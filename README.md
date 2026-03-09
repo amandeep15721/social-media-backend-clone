@@ -10,7 +10,7 @@
 
 A backend REST API for a social media platform built using \*\*FastAPI\*\*.
 
-This project implements core social media functionalities such as user authentication, post creation, and interaction with posts.
+This project implements core social media functionalities such as user post creation, and interaction with posts.
 
 
 
@@ -30,8 +30,6 @@ This project implements core social media functionalities such as user authentic
 
 \* SQLAlchemy
 
-\* JWT Authentication
-
 \* Passlib (password hashing)
 
 
@@ -45,8 +43,6 @@ This project implements core social media functionalities such as user authentic
 
 
 \* User registration
-
-\* Secure user authentication using JWT
 
 \* Create, update and delete posts
 
@@ -98,15 +94,15 @@ social-media-backend/
 
 │   │   ├── posts.py
 
-│   │   └── auth.py
+│   │   
 
 │
 
 │   ├── utils/
 
-│   │   ├── oauth2.py
+│   │   ├── utils.py
 
-│   │   └── security.py
+│   │   
 
 │
 
@@ -242,7 +238,7 @@ http://127.0.0.1:8000/docs
 
 
 
-!\[Swagger UI](docs/swagger-ui.png)
+
 
 <img width="1897" height="958" alt="swagger-ui" src="https://github.com/user-attachments/assets/f5ccd0d4-4076-4579-8911-fbd00675e27b" />
 
